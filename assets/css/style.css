@@ -1,6 +1,9 @@
 /*
 light gray #F2F2F2;
 dark blue #34495E;
+
+charcoal light #2F2F2F;
+charcoal dark 	#222222;
 */
 
 *{
@@ -12,6 +15,7 @@ dark blue #34495E;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	border-bottom: 3px solid gray;
 }
 
 .navpart-header,
@@ -29,5 +33,70 @@ dark blue #34495E;
 }
 
 #intro h3{
- 		padding-bottom: 3%;
- 	}
+	padding-bottom: 3%;
+}
+
+/*--------second section------------*/
+
+.second-section{
+	padding: 5% 0;
+	background-color: #F2F2F2;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.fotos{
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.line{
+	border-top: 1px solid lightgray;
+	width: 100%;
+}
+
+/*--------third section------------*/
+
+.third-section{
+	background-color: #34495E;
+	padding: 6% 0;
+}
+
+.third-section h2{
+	color: #fff;
+	padding-bottom: 2%;
+}
+
+
+
+.pie{
+	background-color: #2F2F2F;
+	color: #fff;
+	padding: 3% 0;
+}
+
+input {
+	border-radius: 5px;
+	padding: 10px 0 10px 10px;
+	border: none;
+	width: 100%;
+}
+
+input[placeholder]{
+	color: gray;
+}
+
+textarea{
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	color: gray;
+}
+
+.btn{
+	background-color: #449d44;
+	color: #fff;
+	border: none;
+}
