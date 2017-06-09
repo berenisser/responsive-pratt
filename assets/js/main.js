@@ -25,7 +25,7 @@ function validarNombre(inputNombre) {
 		return true;  
 	} else {  
 		inputNombre.value = "";
-		var rellenarText = document.createTextNode("Por favor, rellene este campo.");
+		var rellenarText = document.createTextNode("Please fill out this field");
 		var labelError = document.createElement('small');
 		labelError.classList.add('error');
 		labelError.appendChild(rellenarText);
@@ -39,7 +39,7 @@ function validarEmail(inputEmail){
 		return true;  
 	} else {  
 		inputEmail.value = "";
-		var rellenarText = document.createTextNode("Por favor, rellene este campo.");
+		var rellenarText = document.createTextNode("Please fill out this field");
 		var labelError = document.createElement('small');
 		labelError.classList.add('error');
 		labelError.appendChild(rellenarText);
@@ -51,7 +51,7 @@ function validarTexto(inputTexto){
 	var valueTexto = inputTexto.value.length;
 	if(valueTexto == 0){
 		inputTexto.value = "";
-		var rellenarText = document.createTextNode("Por favor, rellene este campo.");
+		var rellenarText = document.createTextNode("Please fill out this field");
 		var labelError = document.createElement('small');
 		labelError.classList.add('error');
 		labelError.appendChild(rellenarText);
