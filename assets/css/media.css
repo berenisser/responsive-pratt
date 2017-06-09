@@ -2,4 +2,16 @@
 	#intro{
  	padding-top: 10%;
  	}
+
+ 	#intro h1{
+ 		font-size: 60px;
+ 	}
+
+ 	#intro h3{
+ 		font-size: 31px;
+ 	}
+
+ 	.escondido{
+ 		padding: 5%;
+ 	}
 }
