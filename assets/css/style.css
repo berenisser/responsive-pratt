@@ -1,0 +1,26 @@
+/*
+light gray #F2F2F2;
+dark blue #34495E;
+*/
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.first-section{
+	background-color: #34495E;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.navpart-header,
+.navbar-nav { 
+   margin: 0 5%
+  }
+
+#intro{
+	color: #fff;
+}
+
+
