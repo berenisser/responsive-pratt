@@ -21,7 +21,11 @@ charcoal dark 	#222222;
 .navpart-header,
 .navbar-nav { 
    margin: 0 5%
-  }
+ }
+
+li:hover{
+	background-color: lightgray;
+}
 
 #intro{
 	color: #fff;
@@ -47,6 +51,10 @@ charcoal dark 	#222222;
     margin: 0 auto;
 }
 
+.cajita{
+	padding-bottom: 20px;
+}
+
 .fotos{
 	padding-top: 10%;
 	padding-bottom: 5%;
@@ -55,6 +63,17 @@ charcoal dark 	#222222;
 .line{
 	border-top: 1px solid lightgray;
 	width: 100%;
+	margin-top: 5%;
+
+}
+
+#description h2{
+	padding: 5%;
+}
+
+.blue{
+	color: #50e3c2;
+	padding: 3% 0 3%;
 }
 
 /*--------third section------------*/
@@ -69,7 +88,11 @@ charcoal dark 	#222222;
 	padding-bottom: 2%;
 }
 
+/*----fourth section*/
 
+.inputs{
+	padding-bottom: 20px;
+}
 
 .pie{
 	background-color: #2F2F2F;
@@ -99,4 +122,22 @@ textarea{
 	background-color: #449d44;
 	color: #fff;
 	border: none;
+}
+
+.error{
+    padding: .25em .5em .35em .5em;
+    margin-top: .5em;
+    margin-bottom: .55em;
+    display: inline-block;
+    position: relative;
+    color: red;
+    background-color: white;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.piecito{
+	background-color: #222222;
+	padding: 1% 0;
+	color: #fff;
 }
